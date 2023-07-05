@@ -1,0 +1,33 @@
+.main {
+  top: 10vh;
+  left: 35vw;
+  position: absolute;
+}
+
+.title-text {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0px 0px 10px 0px;
+}
+
+.btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px 5px 0px 0px;
+}
+
+.add-btn {
+  margin-right: 10px;
+}
+
+.cancel-btn[disabled] {
+  pointer-events: none;
+}
+
+#item-input {
+  width: 500px;
+  height: 35px;
+  font-size: 16px;
+  padding: 0px 0px 0px 10px;
+}
